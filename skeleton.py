@@ -49,7 +49,7 @@ class DetermineColor:
 			self.color_pub.publish(msg)
 
 			cv2.imshow('Image', image)
-			cv2.waitkey(1)
+			cv2.waitKey(1)
 
 		except CvBridgeError as e:
 			print(e)
