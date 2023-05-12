@@ -33,8 +33,8 @@ class DetermineColor:
             res = (0,0,0)
 			
             # 상하좌우 10% 잘라내고 시작하기
-            for i in range(round(x*start),round(x*end)):
-                for j in range(round(y*start),round(y*end)):
+            for i in range(round(x*start),round(x*end),10):
+                for j in range(round(y*start),round(y*end),10):
                     
                     # 적당히 그룹화 (num=15일 때)
                     # 0~14->0 / 15~29->15 / 30~44->30 / 45~59 -> 45
