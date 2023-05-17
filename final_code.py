@@ -58,7 +58,7 @@ class DetermineColor:
                 (0,100,255):'Orange',
                 (0,255,0):'Green',
                 (255,0,0):'Blue',
-                (0,200,200):'Yellow',
+                (0,220,220):'Yellow',
                 (255,0,255):'Pink',
                 (255,128,0):'SkyBlue',
                 (150,0,0):'DarkBlue'
