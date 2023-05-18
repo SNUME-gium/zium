@@ -53,7 +53,7 @@ class DetermineColor:
             
             color_names={
                 (255,255,255):'White',
-                (0,0,0):'Black',
+                (-30,-30,-30):'Black',
                 (0,0,255):'Red',
                 (0,100,255):'Orange',
                 (0,255,0):'Green',
