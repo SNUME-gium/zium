@@ -60,8 +60,7 @@ class DetermineColor:
                 (255,0,0):'Blue',
                 (0,220,220):'Yellow',
                 (255,0,255):'Pink',
-                (255,128,0):'SkyBlue',
-                (150,0,0):'DarkBlue'
+                (255,128,0):'SkyBlue'
             }
             
             # 가장 가까운 색깔 찾기
@@ -77,8 +76,7 @@ class DetermineColor:
             color_cnt['Yellow']=0
             color_cnt['Pink']=0
             color_cnt['SkyBlue']=0  
-            color_cnt['Orange']=0 
-            color_cnt['DarkBlue']=0
+            color_cnt['Orange']=0
             
             black_basket = 250
             basket = 0
@@ -106,8 +104,6 @@ class DetermineColor:
 
             color_cnt['Blue']+=color_cnt['SkyBlue']
             color_cnt['SkyBlue']=0
-            color_cnt['Blue']+=color_cnt['DarkBlue']
-            color_cnt['DarkBlue']=0
             color_cnt['Red']+=color_cnt['Orange']
             color_cnt['Orange']=0
             color_cnt['Black']-=200
